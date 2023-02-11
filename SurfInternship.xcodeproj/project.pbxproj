@@ -13,6 +13,7 @@
 		17505C4329967CA200EE30AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17505C4129967CA200EE30AC /* Main.storyboard */; };
 		17505C4529967CA800EE30AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17505C4429967CA800EE30AC /* Assets.xcassets */; };
 		17505C4829967CA800EE30AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17505C4629967CA800EE30AC /* LaunchScreen.storyboard */; };
+		17505C5029968D7300EE30AC /* InternshipInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17505C4F29968D7300EE30AC /* InternshipInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		17505C4429967CA800EE30AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17505C4729967CA800EE30AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17505C4929967CA800EE30AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17505C4F29968D7300EE30AC /* InternshipInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternshipInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				17505C4429967CA800EE30AC /* Assets.xcassets */,
 				17505C4629967CA800EE30AC /* LaunchScreen.storyboard */,
 				17505C4929967CA800EE30AC /* Info.plist */,
+				17505C4F29968D7300EE30AC /* InternshipInfoViewController.swift */,
 			);
 			path = SurfInternship;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17505C5029968D7300EE30AC /* InternshipInfoViewController.swift in Sources */,
 				17505C4029967CA200EE30AC /* ViewController.swift in Sources */,
 				17505C3C29967CA200EE30AC /* AppDelegate.swift in Sources */,
 				17505C3E29967CA200EE30AC /* SceneDelegate.swift in Sources */,
@@ -292,7 +296,6 @@
 				INFOPLIST_FILE = SurfInternship/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +323,6 @@
 				INFOPLIST_FILE = SurfInternship/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
