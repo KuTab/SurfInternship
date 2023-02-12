@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     }
     
     private func presentModal() {
-        let vc = InternshipInfoViewController()
+        let vc = Factory().build()
         vc.modalPresentationStyle = .formSheet
         vc.sheetPresentationController?.preferredCornerRadius = 36
         vc.isModalInPresentation = true
